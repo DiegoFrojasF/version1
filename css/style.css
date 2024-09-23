@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+}
+
+/* Encabezado */
+
+#menu {
+    height: 90px;
+    /*margin: 20px 20px;*/
+    background: rgb(224, 218, 218);
+}
+
+.logo {
+    margin-left: 150px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.dog {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 20px;
+    display: inline;
+    cursor: pointer;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 25px;
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(19, 19, 229);
+}
+
+.negrilla {
+    font-weight: bold;
+}
+
+.icono {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.flotar-derecha {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+/* Divisor 1 */
+
+.divisor {
+    height: 4px;
+    background: #444242;
+}
+
+/* Cuerpo */
+
+#cuerpo {
+    height: 900px;
+}
+
+#sub {
+    height: 332px;
+    width: 550px;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.divisor1 {
+    height: 2px;
+    width: 550px;
+    background: gray;
+}
+
+.p1 {
+    display: inline-block;
+}
+
+.p2 {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.p3 {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.producto {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.p4 {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.p5 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+select {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.p7 {
+    margin-left: 400px;
+}
+
+#sub1 {
+    height: 320px;
+    width: 380px;
+    background-color: rgb(216, 210, 210);
+    margin-right: 150px;
+    margin-top: 80px;
+    float: right;
+}
+
+.resumen {
+    margin-left: 20px;
+}
+
+.p8 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.p9 {
+    float: right;
+    margin-right: 20px;
+}
+
+.p10 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.p11 {
+    float: right;
+    margin-right: 20px;
+}
+
+.p12 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.p13 {
+    float: right;
+    margin-right: 20px;
+}
+
+.divisor2 {
+    height: 2px;
+    width: 340px;
+    margin-left: 20px;
+    background: white
+}
+
+.p14 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.p15 {
+    float: right;
+    margin-right: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: rgb(60, 60, 235);
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+/* Pie */
+
+#pie {
+    height: 170px;
+}
+
+.logo2 {
+    height: 20px;
+    width: 20px;
+    margin-left: 150px; 
+    display: inline-block;
+    cursor: pointer;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+}
+
+.p16 {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.p17 {
+    float: right;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+
+.alinear {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.metodo {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contenedor {
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+.enviar {
+    background-color: #636060;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: grey;
+}
