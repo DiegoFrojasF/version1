@@ -7,7 +7,7 @@ body {
 #menu {
     height: 90px;
     /*margin: 20px 20px;*/
-    background: rgb(224, 218, 218);
+    background: rgb(60, 83, 254);
 }
 
 .logo {
@@ -23,6 +23,8 @@ body {
 }
 
 h4 {
+    font-family: cursive;
+    color: #fff;
     font-size: 20px;
     display: inline;
     cursor: pointer;
@@ -39,8 +41,12 @@ li {
     display: inline-block;
 }
 
+.color1 {
+    color: aquamarine;
+}
+
 a:hover {
-    color: rgb(19, 19, 229);
+    color: rgb(243, 62, 13);
 }
 
 .negrilla {
@@ -57,6 +63,7 @@ a:hover {
 }
 
 h3 {
+    font-family: cursive;
     font-size: 20px;
     display: inline-block;
     margin-left: 5px;
@@ -80,6 +87,7 @@ h3 {
 
 #cuerpo {
     height: 900px;
+    background-image: url("../imagenes/fondo.jpg");
 }
 
 #sub {
@@ -91,6 +99,7 @@ h3 {
 }
 
 h2 {
+    font-family: cursive;
     font-size: 30px;
 }
 
@@ -102,15 +111,18 @@ h2 {
 
 .p1 {
     display: inline-block;
+    font-family: monospace;
 }
 
 .p2 {
     display: inline-block;
+    font-family: monospace;
     margin-left: 250px;
 }
 
 .p3 {
     display: inline-block;
+    font-family: monospace;
     margin-left: 80px;
 }
 
@@ -124,10 +136,12 @@ h2 {
 .p4 {
     margin-top: 40px;
     display: inline-block;
+    font-family: monospace;
 }
 
 .p5 {
     display: inline-block;
+    font-family: monospace;
     margin-top: 40px;
     margin-left: 50px;
 }
@@ -140,6 +154,7 @@ select {
 
 .p7 {
     margin-left: 400px;
+    font-family: monospace;
 }
 
 #sub1 {
@@ -157,31 +172,37 @@ select {
 
 .p8 {
     display: inline-block;
+    font-family: monospace;
     margin-left: 20px;
 }
 
 .p9 {
     float: right;
+    font-family: monospace;
     margin-right: 20px;
 }
 
 .p10 {
     display: inline-block;
+    font-family: monospace;
     margin-left: 20px;
 }
 
 .p11 {
     float: right;
+    font-family: monospace;
     margin-right: 20px;
 }
 
 .p12 {
     display: inline-block;
+    font-family: monospace;
     margin-left: 20px;
 }
 
 .p13 {
     float: right;
+    font-family: monospace;
     margin-right: 20px;
 }
 
@@ -194,11 +215,13 @@ select {
 
 .p14 {
     display: inline-block;
+    font-family: monospace;
     margin-left: 20px;
 }
 
 .p15 {
     float: right;
+    font-family: monospace;
     margin-right: 20px;
 }
 
@@ -240,6 +263,7 @@ img {
 
 .p16 {
     display: inline-block;
+    font-family: cursive;
     font-size: 12px;
     margin-left: 8px;
     cursor: pointer;
