@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda de Productos para Mascotas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /*background-color: #f4f4f4;*/
+            background-image: url("../imagenes/fondo.jpg");
+        }
+/*Header*/
+        .header {
+            background: rgb(60, 83, 254);
+            color: #ffffff;
+            height: 90px;
+        }
+        .logo {
+            margin-left: 150px;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+        .dog {
+            height: 50px;
+            width: 50px;
+        }
+        h4 {
+            font-family: cursive;
+            color: #fff;
+            font-size: 20px;
+            display: inline;
+        }
+        ul {
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+        li {
+            font-size: 25px;
+            display: inline-block;
+        }
+        .color1 {
+            color: #fff;
+        }
+        a:hover {
+            color: rgb(15, 246, 34);
+        }
+        .icono {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        h3 {
+            font-family: cursive;
+            font-size: 20px;
+            display: inline-block;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .flotar-derecha {
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        }
+/*Container*/
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    margin-left: 150px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.comidap {
+    height: 200px;
+    width: 200px;
+}
+
+.comidag {
+    height: 200px;
+    width: 200px;
+}
+
+.juguete {
+    height: 200px;
+    width: 200px;
+}
+
+.medicina {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+<!--Header-->
+<div class="header">
+    <div class="logo">
+        <img src="../imagenes/logo.png" alt="logo" class="dog">
+        <h4>Vet Shop</h4>
+    </div>
+    <ul>
+        <li><a href="../index.html" class="color1">Inicio</a></li>
+        <li><p class="negrilla" class="color1">|</p></li>
+        <li><a href="productos.html" class="color1">Productos</a></li>
+        <li><p class="negrilla" class="color1">|</p></li>
+        <li><a href="../registro/registro.html" class="color1">Registro</a></li>
+    </ul>
+    <div class="flotar-derecha">   
+        <img src="../imagenes/lupa.png" alt="lupa" class="icono">
+        <img src="../imagenes/carrito.png" alt="carrito" class="icono">
+        <h3><a href="../carrito/carrito.html">Carrito (1)</a></h3>
+    </div>
+</div>
+<!--Container-->
+    <section id="productos">
+        <center><h2>Productos Destacados</h2></center>
+        <div class="producto">
+            <img src="../imagenes/comidap.jpeg" alt="Alimento para perros" class="comidap">
+            <h3>Alimento para Perros</h3>
+            <p>Nutrición balanceada para tu mejor amigo.</p>
+            <span>$25.000</span>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../imagenes/comidag.jpeg" alt="Alimento para gatos" class="comidag">
+            <h3>Alimento para Gatos</h3>
+            <p>Delicioso y saludable para tus felinos.</p>
+            <span>$20.000</span>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../imagenes/juguetes.jpg" alt="Juguete para mascotas" class="juguete">
+            <h3>Juguete para Mascotas</h3>
+            <p>Diviértete con tu mascota.</p>
+            <span>$15.000</span>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../imagenes/medicina.jpeg" alt="Juguete para mascotas" class="medicina">
+            <h3>Medicina para Mascotas</h3>
+            <p>Cuida a tu mascota.</p>
+            <span>$20.000</span>
+            <button>Añadir al Carrito</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vet Shop. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
