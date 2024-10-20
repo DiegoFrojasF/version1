@@ -1,107 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Vet Shop</title>
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /*background-color: #f4f4f4;*/
+            background-image: url("imagenes/fondo.jpg");
+        }
+/*Header*/
+        .header {
+            background: rgb(60, 83, 254);
+            color: #ffffff;
+            height: 90px;
+        }
+        .logo {
+            margin-left: 150px;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+        .dog {
+            height: 50px;
+            width: 50px;
+        }
+        h4 {
+            font-family: cursive;
+            color: #fff;
+            font-size: 20px;
+            display: inline;
+        }
+        ul {
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+        li {
+            font-size: 25px;
+            display: inline-block;
+        }
+        .color1 {
+            color: #fff;
+        }
+        a:hover {
+            color: rgb(15, 246, 34);
+        }
+        .icono {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        h3 {
+            font-family: cursive;
+            font-size: 20px;
+            display: inline-block;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .flotar-derecha {
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        }
+/*Container*/
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sede {
+            height: 200px;
+            width: 200px;
+        }
+/*Footer*/
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <!-- Encabezado -->
-    <div id="menu">
+<!--Header-->
+    <div class="header">
         <div class="logo">
             <img src="imagenes/logo.png" alt="logo" class="dog">
             <h4>Vet Shop</h4>
         </div>
         <ul>
-            <li><a href="">Acerca de</a></li>
-            <li><p class="negrilla">|</p></li>
-            <li><a href="">Categorias</a></li>
-            <li><p class="negrilla">|</p></li>
-            <li><a href="">Contactanos</a></li>
+            <li><a href="index.html" class="color1">Inicio</a></li>
+            <li><p class="negrilla" class="color1">|</p></li>
+            <li><a href="productos/productos.html" class="color1">Productos</a></li>
+            <li><p class="negrilla" class="color1">|</p></li>
+            <li><a href="registro/registro.html" class="color1">Registro</a></li>
         </ul>
-    <div class="flotar-derecha">   
-        <img src="imagenes/lupa.png" alt="lupa" class="icono">
-        <img src="imagenes/carrito.png" alt="carrito" class="icono">
-        <h3>Carrito (1)</h3>
-    </div> 
-    </div>
-    <!-- Divisor 1 -->
-    <div class="divisor"></div>
-    <!-- Cuerpo -->
-    <div id="cuerpo">
-        <div id="sub">
-            <h2>Tu pedido</h2>
-        <!-- Divisor 1.1 -->
-            <div class="divisor1"></div>
-            <p class="p1">Item</p>
-            <p class="p2">Precio</p>
-            <p class="p3">Cantidad</p>
-        <!-- Divisior 1.1 -->
-            <div class="divisor1"></div>
-            <img src="imagenes/medicina.png" alt="medicina" class="producto">
-            <!-- <div class="p4"> -->
-                <p class="p4">Nutriderm</p>
-                <p class="p4">Tamaño: Pequeño</p>
-                <p class="p5"><b>$20.000</b></p>
-                <select>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                </select>
-            <!-- </div> -->
-            <div class="divisor1"></div>
-            <p class="p7">Subtotal: <b>$20.000</b></p>
-            <div class="divisor1"></div>
-        </div>
-        <!-- Caja de resumen -->
-        <div id="sub1">
-            <h3 class="resumen">Resumen (1 item)</h3>
-            <br>
-            <p class="p8">Subtotal</p>
-            <p class="p9">$20.000</p>
-            <br>
-            <p class="p10">Envío</p>
-            <p class="p11">-</p>
-            <br>
-            <p class="p12">Est. impuesto</p>
-            <p class="p13">-</p>
-            <br>
-            <div class="divisor2"></div>
-            <br>
-            <p class="p14"><b>Total</b></p>
-            <p class="p15"><b>$20.000</b></p>
-            <br>
-            <button class="btn">Comprar</button>
+        <div class="flotar-derecha">   
+            <img src="imagenes/lupa.png" alt="lupa" class="icono">
+            <img src="imagenes/carrito.png" alt="carrito" class="icono">
+            <h3><a href="carrito/carrito.html">Carrito (1)</a></h3>
         </div>
     </div>
-    <!-- Divisor 2 -->
-    <div class="divisor"></div>
-    <!-- Pie -->
-    <div id="pie">
-        <div class="logo2">
-            <img src="imagenes/logo.png" alt="logo" >
-        </div>
-        <p class="p16">Vet Shop</p>
-        <ul>
-            <li><a href="">Acerca de</a></li>
-            <li><p class="negrilla">|</p></li>
-            <li><a href="">Categorias</a></li>
-            <li><p class="negrilla">|</p></li>
-            <li><a href="">Contactanos</a></li>
-        </ul>
-        <p class="p17">Unete a nuestro portal de noticias</p>
+<!--Container-->
+    <div class="container">
+        <center><h1>Bienvenido a Vet Shop</h1></center>
+        <center><h3>"Cuidamos lo que más amas: Salud y bienestar para tus mascotas"</h3></center>
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            En Vet Shop, somos más que una tienda de productos veterinarios; somos apasionados por el bienestar de tus mascotas. Desde nuestro inicio, nos hemos dedicado a proporcionar una amplia gama de productos de alta calidad para cuidar de los animales que tanto amas. Ya sea que busques alimentos, medicamentos, accesorios o productos especializados para el cuidado de tus mascotas.
+        </p>
+        <h3>Sobre Nosotros</h3>
+        <p>
+            Somos un equipo dedicado a ofrecer lo mejor en soluciones veterinarias. Nuestro objetivo es ayudarte a cuidar a tus mascotas.
+        </p>
+        <center><img src="imagenes/Vet.png" alt="sede" class="sede"></center>
         <br>
-        <div class="alinear">
-            <img src="imagenes/metodo1.png" alt="metodo1" class="metodo">
-            <img src="imagenes/metodo2.png" alt="metodo2" class="metodo">
-            <img src="imagenes/metodo3.png" alt="metodo3" class="metodo">
-        </div>
-        <div class="contenedor">
-            <form action="#"> <input type="email" placeholder="Ingresa Email">
-            <input type="submit" class="enviar" >
-            </form>
-        </div>
+        <h3>Servicios</h3>
+        <p> . Alimentos premium para gatos y perros: Variedades nutricionalmente equilibradas para todas las etapas de vida, desde cachorros hasta adultos mayores, adaptados a las necesidades específicas de cada raza.</p>
+
+        <p> . Medicamentos y suplementos veterinarios: Productos de calidad aprobados por especialistas, que cubren desde tratamientos preventivos hasta soluciones para condiciones específicas de salud.</p>
+            
+        <p> . Juguetes interactivos: Diseñados para estimular y entretener a tus gatos y perros, promoviendo su desarrollo físico y mental.</p>
+            
+        <p>Nos preocupamos por brindar todo lo necesario para la salud y felicidad de tus mascotas.</p>
     </div>
+<!--Footer-->
+    <footer>
+        <p>&copy; 2024 Vet Shop. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
